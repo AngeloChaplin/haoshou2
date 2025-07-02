@@ -21,7 +21,7 @@ file_path = f"logs/{file_name}"
 
 # ==== 获取 Binance K线数据 ====
 binance_url = 'https://api.binance.us/api/v1/klines?symbol=BTCUSDC&interval=3m&limit=1'
-get_file_api = f"https://api.github.us/repos/{REPO_OWNER}/{REPO_NAME}/contents/{file_path}"
+get_file_api = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/contents/{file_path}"
 
 
 while True:
